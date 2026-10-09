@@ -1,6 +1,11 @@
-import pandas as pd
+from data_ingestion import load_data
 
-data = pd.read_csv('../Data/Raw/EmployeeAttrition.csv')
-print(data.head())
-#print(data.info())
-#print(data.describe())
+def main():
+    df = load_data()
+
+    print(df.head(), '\n', '*' * 70)
+    print(df.shape, '\n', '*' * 70)
+
+
+if __name__ == '__main__':
+    main()
