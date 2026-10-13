@@ -24,6 +24,7 @@ Note:
 python -m pip cache purge
 1. installation command for pandas:
         python -m pip install pandas==2.2.3 --no-cache-dir
+        python -m pip install --no-cache-dir matplotlib
 
 2. Dataset 
         https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
@@ -60,4 +61,8 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 Everything up-to-date
 7. def main
         main() is written in data_validation.py also in main.py --- shall we import main() from data_validation.py?
-8. 
+8. path.py:
+        - PROJECT_ROOT = Path(__file__).resolve().parents[2]
+        - parents[2] --- 2 directories outside considered as parent/root project directory
+
+9. (Talent_Gaurd) PS D:\Talent_Gaurd> python -m src.components.data_ingestion

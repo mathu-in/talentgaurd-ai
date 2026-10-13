@@ -1,12 +1,13 @@
 import pandas as pd
 from pathlib import Path
+from config.path import DATA_DIR
 
 def load_data():
-    project_root = Path(__file__).resolve().parents[2]
-    csv_path = project_root / "Data" / "Raw" / "EmployeeAttrition.csv"
-    data = pd.read_csv(csv_path)
+    # project_root = Path(__file__).resolve().parents[2]
+    # csv_path = project_root / "Data" / "Raw" / "EmployeeAttrition.csv"
+    # data = pd.read_csv(csv_path)
 
-    # data = pd.read_csv('../../Data/Raw/EmployeeAttrition.csv')
+    data = pd.read_csv(DATA_DIR/'EmployeeAttrition.csv')
     return data
 
 if __name__ == '__main__':
