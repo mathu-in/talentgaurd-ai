@@ -13,7 +13,8 @@ def load_data():
 if __name__ == '__main__':
     data2 = load_data()
     #---------------------------
-    print(data2.head(),'\n','*'*70)
-    print(data2.info(),'\n','*'*70)
-    print(data2.shape,'\n','*'*70)
-    print(data2.columns,'\n','*'*70)
+    # print(data2.head(),'\n','*'*70)
+    # print(data2.info(),'\n','*'*70)
+    # print(data2.shape,'\n','*'*70)
+    # print(data2.columns,'\n','*'*70)
+    print("Data ingestion complete")

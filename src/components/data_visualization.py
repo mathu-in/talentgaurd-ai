@@ -20,7 +20,7 @@ def bar_chart(series,title,filename):
     #for saving the chart
     plt.savefig(CHART_DIR / filename)
     #for showing
-    plt.show()
+    # plt.show()
     plt.close()
 
 
@@ -37,7 +37,7 @@ def histogram(series,title,filename):
     #for saving the chart
     plt.savefig(CHART_DIR / filename)
     #for showing
-    plt.show()
+    # plt.show()
     plt.close()
 
 
@@ -48,7 +48,7 @@ def stacked_bar(crosstab,title,filename):
     plt.title(title)
     plt.tight_layout()
     plt.savefig(CHART_DIR / filename)
-    plt.show()
+    # plt.show()
     plt.close()
 
 def create_visual(data:pd.DataFrame):
@@ -60,6 +60,6 @@ def main():
     from src.components import load_data
     data = load_data()
     create_visual(data)
-
+    print("Data visualization complete")
 if __name__ == '__main__':
     main()

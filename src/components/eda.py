@@ -6,18 +6,18 @@ from config.path import REPORTS_DIR
 #os.makedirs(artifacts_path, exist_ok=True)
 
 def general_eda(df: pd.DataFrame):
-    print('\n'+'='*60)
-    print("Exploratory Data Analysis".center(60))
-    print('='*60)
-    print(f'\nDataset shape: {df.shape}')
-    print('\nTarget Variable Distribution')
-    print(df['Attrition'].value_counts())
-    print('\nNumerical Variable Distribution')
-    print(df.describe())
-    print('\nDepartment Variable Distribution')
-    print(df['Department'].value_counts())
-    print(pd.crosstab(df['Attrition'], df['OverTime']))
-
+    # print('\n'+'='*60)
+    # print("Exploratory Data Analysis".center(60))
+    # print('='*60)
+    # print(f'\nDataset shape: {df.shape}')
+    # print('\nTarget Variable Distribution')
+    # print(df['Attrition'].value_counts())
+    # print('\nNumerical Variable Distribution')
+    # print(df.describe())
+    # print('\nDepartment Variable Distribution')
+    # print(df['Department'].value_counts())
+    # print(pd.crosstab(df['Attrition'], df['OverTime']))
+    print("eda executed")
 
     # with open(os.path.join(artifacts_path, "report.txt"), "w") as text_file:
     with open(REPORTS_DIR/"report.txt", "w") as text_file:

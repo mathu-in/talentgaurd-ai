@@ -25,6 +25,11 @@ python -m pip cache purge
 1. installation command for pandas:
         python -m pip install pandas==2.2.3 --no-cache-dir
         python -m pip install --no-cache-dir matplotlib
+        python -m pip install scikit-learn==1.7.2  ---- failed
+        python -m pip install --index-url https://pypi.org/simple joblib
+        python -m pip install --index-url https://pypi.org/simple scikit-learn==1.6.1
+
+ 
 
 2. Dataset 
         https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
