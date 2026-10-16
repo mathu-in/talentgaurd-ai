@@ -15,6 +15,8 @@ REPORTS_DIR = ARTIFACTS_DIR / 'reports'
 #charts path
 CHART_DIR = ARTIFACTS_DIR / 'charts'
 
+MODEL_DIR = ARTIFACTS_DIR / 'models'
+
 # print("Project directory: ", PROJECT_DIR)
 # print("Data directory: ", DATA_DIR)
 # print("Artifacts directory: ", ARTIFACTS_DIR)

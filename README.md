@@ -71,3 +71,44 @@ Everything up-to-date
         - parents[2] --- 2 directories outside considered as parent/root project directory
 
 9. (Talent_Gaurd) PS D:\Talent_Gaurd> python -m src.components.data_ingestion
+
+
+Columns:
+
+['numerical__Age' 'numerical__DailyRate' 'numerical__DistanceFromHome'
+ 'numerical__Education' 'numerical__EmployeeCount'
+ 'numerical__EmployeeNumber' 'numerical__EnvironmentSatisfaction'
+ 'numerical__HourlyRate' 'numerical__JobInvolvement' 'numerical__JobLevel'
+ 'numerical__JobSatisfaction' 'numerical__MonthlyIncome'
+ 'numerical__MonthlyRate' 'numerical__NumCompaniesWorked'
+ 'numerical__PercentSalaryHike' 'numerical__PerformanceRating'
+ 'numerical__RelationshipSatisfaction' 'numerical__StandardHours'
+ 'numerical__StockOptionLevel' 'numerical__TotalWorkingYears'
+ 'numerical__TrainingTimesLastYear' 'numerical__WorkLifeBalance'
+ 'numerical__YearsAtCompany' 'numerical__YearsInCurrentRole'
+ 'numerical__YearsSinceLastPromotion' 'numerical__YearsWithCurrManager'
+ 'categorical__BusinessTravel_Non-Travel'
+ 'categorical__BusinessTravel_Travel_Frequently'
+ 'categorical__BusinessTravel_Travel_Rarely'
+ 'categorical__Department_Human Resources'
+ 'categorical__Department_Research & Development'
+ 'categorical__Department_Sales'
+ 'categorical__EducationField_Human Resources'
+ 'categorical__EducationField_Life Sciences'
+ 'categorical__EducationField_Marketing'
+ 'categorical__EducationField_Medical' 'categorical__EducationField_Other'
+ 'categorical__EducationField_Technical Degree'
+ 'categorical__Gender_Female' 'categorical__Gender_Male'
+ 'categorical__JobRole_Healthcare Representative'
+ 'categorical__JobRole_Human Resources'
+ 'categorical__JobRole_Laboratory Technician'
+ 'categorical__JobRole_Manager'
+ 'categorical__JobRole_Manufacturing Director'
+ 'categorical__JobRole_Research Director'
+ 'categorical__JobRole_Research Scientist'
+ 'categorical__JobRole_Sales Executive'
+ 'categorical__JobRole_Sales Representative'
+ 'categorical__MaritalStatus_Divorced'
+ 'categorical__MaritalStatus_Married' 'categorical__MaritalStatus_Single'
+ 'categorical__Over18_Y' 'categorical__OverTime_No'
+ 'categorical__OverTime_Yes']

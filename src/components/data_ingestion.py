@@ -1,6 +1,11 @@
 import pandas as pd
-from pathlib import Path
-from config.path import DATA_DIR
+# from pathlib import Path
+# from config.path import DATA_DIR
+
+if __name__ == '__main__':
+    from src.config.path import DATA_DIR
+else:
+    from config.path import DATA_DIR
 
 def load_data():
     # project_root = Path(__file__).resolve().parents[2]
@@ -8,6 +13,7 @@ def load_data():
     # data = pd.read_csv(csv_path)
 
     data = pd.read_csv(DATA_DIR/'EmployeeAttrition.csv')
+    print("data_ingestion executed")
     return data
 
 if __name__ == '__main__':
