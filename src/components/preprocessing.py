@@ -24,7 +24,7 @@ def preprocess_data(X_train, X_test, numerical_feature_names,category_feature_na
     preprocessor = create_preprocessor(numerical_feature_names,category_feature_names)
     X_train_preprocessor = preprocessor.fit_transform(X_train)
     X_test_preprocessor = preprocessor.transform(X_test)
-    joblib.dump(X_train_preprocessor, MODEL_DIR/'X_train_preprocessor.pkl')
+    joblib.dump(X_train_preprocessor, MODEL_DIR/'preprocessor.pkl')
 
     return X_train_preprocessor,X_test_preprocessor, preprocessor
 
